@@ -1,0 +1,111 @@
+
+ul{
+    position: sticky;
+    top: auto;
+}
+li{
+    display: inline;
+    float: left;
+}
+a {
+    font-size: 18px;
+    display: block;
+    padding: 30px;
+    color: white;
+}
+/* button{
+    margin-top: 39%;
+    margin-left:600%;
+    margin-right: 12px;
+    display: block;
+    padding: 30px;
+    color: white
+} */
+a:hover,.active{
+    color: #26ecf3;
+    text-decoration: none;
+}
+.active{
+    color: greenyellow;
+}
+header{
+    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)); */
+    z-index: 999;
+    padding-bottom:0;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/team.jpg);
+}
+header .welcome{
+    padding-bottom: 21%;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+}
+.welcome span{
+    color: #68c3a3;
+    font-size: 80px;
+}
+.welcome h1{
+    font-size: 60px;
+}
+/* #about{
+    bottom: 12%;
+    background-size:100% 100%;
+     padding-bottom: 21%;
+    padding-top: 18%;
+    text-align: center;
+    color: white;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.0)),url(../img/homepage.jpg);
+
+} */
+.common{
+    color: black;
+    text-align: center;
+}
+.common span{
+    color: rgb(34, 195, 236);
+}
+#team{
+    
+}
+#team img{
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+}
+/* {
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.0));
+} */
+
+.image img{
+    margin-bottom:0%;
+    margin-top: -80px;
+    border: solid 3px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border-color: rgba(170, 172, 170, 0.63);
+}
+#status{
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 35%;
+    background-color: rgba(190, 184, 184, 0.144);
+    border-radius: 5%;
+    width: 75%;
+}
+#contacts{
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(../img/team.jpg);
+    z-index: 999;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-position: fixed; */
+}
+input{
+    width: 20%;
+}
+.subscribe input{
+    width: 400px;
+}
