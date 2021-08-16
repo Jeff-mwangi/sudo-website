@@ -35,6 +35,7 @@ include "include/functions.php";
                         <li><a href="#team">Our Team</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="../signup.php" type="submit">Join Us</a></li>
+                        <li ><a href="../logout.php">Log Out</a></li>
                         <!-- <div class="#login-button">
                         <li><button class="btn btn-success" type="submit">Login</button></li>
                     </div> -->
